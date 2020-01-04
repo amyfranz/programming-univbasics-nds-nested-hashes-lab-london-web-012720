@@ -32,5 +32,5 @@ def aoh_update(aoh, row, key, new_value)
   current = aoh[row]
   puts current
   current[:name] = new_value
-  return new_value
+  return aoh
 end
