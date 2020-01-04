@@ -25,11 +25,11 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  puts row
-  puts key
-  #puts aoh[row][key]
-  puts new_value
-  current = aoh[row]
-  current[key] = new_value
+  # puts row
+  # puts key
+  # #puts aoh[row][key]
+  # puts new_value
+  # current = aoh[row]
+  aoh[row][key] = new_value
   return aoh
 end
