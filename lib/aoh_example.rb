@@ -29,6 +29,7 @@ def aoh_update(aoh, row, key, new_value)
   puts key
   puts aoh[row][key]
   puts new_value
-  aoh[row][key] = "hello"
+  current = aoh[row]
+  current[key] = new_value
   return aoh[row][key]
 end
